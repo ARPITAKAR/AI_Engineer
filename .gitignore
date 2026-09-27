@@ -1,0 +1,85 @@
+```gitignore
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python tooling
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Local model / Hugging Face cache
+# ==============================
+
+.cache/
+cache/
+huggingface/
+.huggingface/
+
+# ==============================
+# Build / distribution
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Local secrets / credentials
+# ==============================
+
+*.pem
+*.key
+credentials.json
+secrets.json
+```
